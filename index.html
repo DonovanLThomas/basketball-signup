@@ -33,8 +33,15 @@
         <label for="phone">Phone Number:</label>
         <input type="tel" name="phone" id="phone" required pattern="[0-9]{10}"/>
 
+        <label>
+            <input type="checkbox" name="sms_consent" required>
+            I agree to receive SMS messages about scheduling a basketball game.
+        </label>
+
         <button type="Submit">Submit</button>
     </form>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
 
     <script>
         function showThankYou(){
